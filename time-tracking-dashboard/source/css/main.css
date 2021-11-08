@@ -5,6 +5,11 @@
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
 
 @layer base {
+  html {
+    background: hsl(226, 43%, 10%);
+    color: #fff;
+    @apply p-4;
+  }
   h1 {
     @apply text-2xl font-bold text-red-500;
   }
@@ -12,13 +17,12 @@
     @apply text-xl;
   }
   header {
-    @apply bg-black;
+    background: hsl(235, 46%, 20%);
   }
   .container {
     @apply p-4 mx-auto;
   }
   p {
-    @apply text-blue-500;
   }
 }
 

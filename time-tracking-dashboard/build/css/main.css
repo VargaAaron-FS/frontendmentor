@@ -537,6 +537,12 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+html {
+  background: hsl(226, 43%, 10%);
+  color: #fff;
+  padding: 1rem;
+}
+
 h1 {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -551,8 +557,7 @@ h2 {
 }
 
 header {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  background: hsl(235, 46%, 20%);
 }
 
 .container {
@@ -562,8 +567,6 @@ header {
 }
 
 p {
-  --tw-text-opacity: 1;
-  color: rgba(59, 130, 246, var(--tw-text-opacity));
 }
 
 .container {
@@ -600,30 +603,16 @@ p {
   }
 }
 
-.btn-blue {
-  display: block;
-  border-radius: 0.25rem;
-  --tw-bg-opacity: 1;
-  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
-}
-
-.btn-blue:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
-}
-
-.btn-blue {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
+.static {
+  position: static;
 }
 
 .table {
   display: table;
+}
+
+.contents {
+  display: contents;
 }
 
 @-webkit-keyframes spin {
