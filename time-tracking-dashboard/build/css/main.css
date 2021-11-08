@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
 /*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -532,12 +534,13 @@ video {
  * Ensure the default browser behavior of the `hidden` attribute.
  */
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-opacity: 1;
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
 html {
+  font-family: 'Rubik', sans-serif;
   background: hsl(226, 43%, 10%);
   color: #fff;
   padding: 1rem;
@@ -566,106 +569,112 @@ header {
   padding: 1rem;
 }
 
+dt {
+  color: hsla(236, 100%, 87%, 1);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 p {
 }
 
-.container {
+.container{
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .container {
+@media (min-width: 640px){
+  .container{
     max-width: 640px;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px){
+  .container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px) {
-  .container {
+@media (min-width: 1024px){
+  .container{
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px) {
-  .container {
+@media (min-width: 1280px){
+  .container{
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
+@media (min-width: 1536px){
+  .container{
     max-width: 1536px;
   }
 }
 
-.static {
+.static{
   position: static;
 }
 
-.table {
+.table{
   display: table;
 }
 
-.contents {
+.contents{
   display: contents;
 }
 
-@-webkit-keyframes spin {
-  to {
+@-webkit-keyframes spin{
+  to{
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
-@keyframes spin {
-  to {
+@keyframes spin{
+  to{
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
-@-webkit-keyframes ping {
-  75%, 100% {
+@-webkit-keyframes ping{
+  75%, 100%{
     -webkit-transform: scale(2);
     transform: scale(2);
     opacity: 0;
   }
 }
 
-@keyframes ping {
-  75%, 100% {
+@keyframes ping{
+  75%, 100%{
     -webkit-transform: scale(2);
     transform: scale(2);
     opacity: 0;
   }
 }
 
-@-webkit-keyframes pulse {
-  50% {
+@-webkit-keyframes pulse{
+  50%{
     opacity: .5;
   }
 }
 
-@keyframes pulse {
-  50% {
+@keyframes pulse{
+  50%{
     opacity: .5;
   }
 }
 
-@-webkit-keyframes bounce {
-  0%, 100% {
+@-webkit-keyframes bounce{
+  0%, 100%{
     -webkit-transform: translateY(-25%);
     transform: translateY(-25%);
     -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
     animation-timing-function: cubic-bezier(0.8,0,1,1);
   }
 
-  50% {
+  50%{
     -webkit-transform: none;
     transform: none;
     -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
@@ -673,15 +682,15 @@ p {
   }
 }
 
-@keyframes bounce {
-  0%, 100% {
+@keyframes bounce{
+  0%, 100%{
     -webkit-transform: translateY(-25%);
     transform: translateY(-25%);
     -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
     animation-timing-function: cubic-bezier(0.8,0,1,1);
   }
 
-  50% {
+  50%{
     -webkit-transform: none;
     transform: none;
     -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
@@ -689,16 +698,16 @@ p {
   }
 }
 
-.antialiased {
+.antialiased{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-shadow: 0 0 #0000;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
@@ -709,19 +718,19 @@ p {
 
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
 
-@media (min-width: 640px) {
+@media (min-width: 640px){
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px){
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px){
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1536px){
 }
 
 /*# sourceMappingURL=main.css.map */

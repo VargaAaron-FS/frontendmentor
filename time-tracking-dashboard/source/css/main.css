@@ -4,8 +4,11 @@
 
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
 @layer base {
   html {
+    font-family: 'Rubik', sans-serif;
     background: hsl(226, 43%, 10%);
     color: #fff;
     @apply p-4;
@@ -21,6 +24,10 @@
   }
   .container {
     @apply p-4 mx-auto;
+  }
+  dt {
+    color: hsla(236, 100%, 87%, 1);
+    @apply text-sm;
   }
   p {
   }
