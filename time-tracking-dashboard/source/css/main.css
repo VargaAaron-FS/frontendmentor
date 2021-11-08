@@ -1,0 +1,40 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* ------ Add your CSS below this line (or @import your other CSS files). ------- */
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold text-red-500;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  header {
+    @apply bg-black;
+  }
+  .container {
+    @apply p-4 mx-auto;
+  }
+  p {
+    @apply text-blue-500;
+  }
+}
+
+@layer components {
+  .btn-blue {
+    @apply block px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700;
+  }
+}
+
+@layer utilities {
+  @variants hover, focus {
+    .filter-none {
+      filter: none;
+    }
+    .filter-grayscale {
+      filter: grayscale(100%);
+    }
+  }
+}

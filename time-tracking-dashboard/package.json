@@ -1,11 +1,14 @@
 {
-  "name": "time-tracking-dashboard",
+  "name": "codekit-project",
   "version": "1.0.0",
-  "description": "![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
+  "scripts": {},
   "author": "",
-  "license": "ISC"
+  "license": "UNLICENSED",
+  "repository": {},
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "tailwindcss": "^2.2.19"
+  }
 }

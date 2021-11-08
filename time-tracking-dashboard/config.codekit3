@@ -4,289 +4,182 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "595E9EC7-B9AC-48D9-8585-8FF1DE9E0A48"
+      "uuidString" : "D8DDAB9F-71C4-4444-8B6A-DFC95CCC2731"
     }
   ],
   "creatorBuild" : "34214",
   "files" : {
-    "\/css\/sanitize.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/sanitize-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/style-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/data.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/data-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/design\/active-states.jpg" : {
-      "ft" : 16384,
-      "iS" : 50975,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/active-states.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/design\/desktop-design.jpg" : {
-      "ft" : 16384,
-      "iS" : 49893,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/desktop-design.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/design\/desktop-preview.jpg" : {
-      "ft" : 16384,
-      "iS" : 53270,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/desktop-preview.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/design\/mobile-design.jpg" : {
-      "ft" : 16384,
-      "iS" : 37658,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/mobile-design.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/favicon-32x32.png" : {
-      "ft" : 32768,
-      "iS" : 1063,
-      "oA" : 0,
-      "oAP" : "\/images\/favicon-32x32.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/icon-ellipsis.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/icon-ellipsis.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icon-exercise.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/icon-exercise.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icon-play.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/icon-play.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icon-self-care.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/icon-self-care.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icon-social.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/icon-social.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icon-study.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/icon-study.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icon-work.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/icon-work.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/image-jeremy.png" : {
-      "ft" : 32768,
-      "iS" : 25686,
-      "oA" : 0,
-      "oAP" : "\/images\/image-jeremy.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/index.html" : {
+    "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/index.html",
+      "oAP" : "\/build\/.gitignore",
       "oF" : 0
     },
-    "\/js\/script.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/script-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
+    "\/build" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/build\/build",
+      "oF" : 0
     },
-    "\/package.json" : {
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/build\/node_modules",
+      "oF" : 0
+    },
+    "\/node_modules\/tailwindcss\/base.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 2,
+      "ft" : 16,
+      "ma" : 3,
+      "oA" : 1,
+      "oAP" : "\/build\/node_modules\/tailwindcss\/base.css",
+      "oF" : 0,
+      "pg" : 2
+    },
+    "\/node_modules\/tailwindcss\/components.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 2,
+      "ft" : 16,
+      "ma" : 3,
+      "oA" : 1,
+      "oAP" : "\/build\/node_modules\/tailwindcss\/components.css",
+      "oF" : 0,
+      "pg" : 2
+    },
+    "\/node_modules\/tailwindcss\/utilities.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 2,
+      "ft" : 16,
+      "ma" : 3,
+      "oA" : 1,
+      "oAP" : "\/build\/node_modules\/tailwindcss\/utilities.css",
+      "oF" : 0,
+      "pg" : 2
+    },
+    "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/package-min.json",
+      "oAP" : "\/build\/package-lock.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/README-template.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README-template.html",
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/package.json",
       "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+      "oO" : 1,
+      "oS" : 1
     },
-    "\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+    "\/postcss.config.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 3,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/build\/postcss.config.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
     },
-    "\/scss\/style.scss" : {
-      "aP" : 0,
+    "\/source\/css\/main.css" : {
+      "aP" : 1,
       "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
+      "ci" : 1,
+      "co" : 2,
+      "ft" : 16,
+      "ma" : 3,
       "oA" : 0,
-      "oAP" : "\/css\/style.css",
-      "oF" : 2,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oAP" : "\/build\/css\/main.css",
+      "oF" : 1,
+      "pg" : 1
     },
-    "\/style-guide.md" : {
+    "\/source\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 1029,
+      "oA" : 0,
+      "oAP" : "\/build\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 1295,
+      "oA" : 0,
+      "oAP" : "\/build\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/favicon.ico" : {
       "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
+      "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/style-guide.html",
+      "oAP" : "\/build\/favicon.ico",
+      "oF" : 0
+    },
+    "\/source\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/index.html",
+      "oF" : 0
+    },
+    "\/source\/js\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 3,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/js\/script.js",
       "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/source\/logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 18893,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/tailwind.config.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 3,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/build\/tailwind.config.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
     }
   },
   "hooks" : [
@@ -296,11 +189,12 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 657752033.15208197,
+    "creationDate" : 657938333.402035,
     "displayValue" : "time-tracking-dashboard",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets_teal",
-    "iconImageWasSetByUser" : 0
+    "iconImageName" : "\/source\/logo.jpg",
+    "iconImageWasSetByUser" : 1,
+    "lastBuiltDate" : 657938354.85821497
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -594,8 +488,8 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 0,
-    "buildFolderActive" : 0,
+    "buildEnvironment" : 1,
+    "buildFolderActive" : 1,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
     "coffeeLintFlags2" : {
@@ -739,7 +633,7 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
@@ -1731,25 +1625,25 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "minifierStyle" : 0,
+      "minifierStyle" : 1,
       "outputStyle" : 0,
-      "sourceMapStyle" : 0,
+      "sourceMapStyle" : 3,
       "syntaxCheckerStyle" : 1,
       "transpilerStyle" : 1
     },
     "languageDefaultsCSS" : {
       "autoOutputAction" : 0,
-      "autoOutputPathFilenamePattern" : "*-min.css",
+      "autoOutputPathFilenamePattern" : "*.css",
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "combineImports" : 0,
-      "cssoStyle" : 0,
-      "purgeCSSStyle" : 0,
+      "combineImports" : 1,
+      "cssoStyle" : 2,
+      "purgeCSSStyle" : 2,
       "shouldRunAutoprefixer" : 1,
       "shouldRunBless" : 0,
-      "sourceMapStyle" : 0
+      "sourceMapStyle" : 3
     },
     "languageDefaultsGIF" : {
       "autoOutputAction" : 0,
@@ -1791,20 +1685,20 @@
     },
     "languageDefaultsJS" : {
       "autoOutputAction" : 0,
-      "autoOutputPathFilenamePattern" : "*-min.js",
+      "autoOutputPathFilenamePattern" : "*.js",
       "autoOutputPathRelativePath" : "\/min",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
       "bundleFormat" : 0,
       "minifierStyle" : 1,
-      "sourceMapStyle" : 0,
+      "sourceMapStyle" : 3,
       "syntaxCheckerStyle" : 3,
       "transpilerStyle" : 0
     },
     "languageDefaultsJSON" : {
       "autoOutputAction" : 1,
-      "autoOutputPathFilenamePattern" : "*-min.json",
+      "autoOutputPathFilenamePattern" : "*.json",
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
@@ -1986,21 +1880,21 @@
 
       ],
       "contentEntries" : [
-        "**\/*.html",
-        "**\/*.htm",
-        "**\/*.shtml",
-        "**\/*.xhtml",
-        "**\/*.php",
-        "**\/*.js",
-        "**\/*.ts",
-        "**\/*.coffee",
-        "**\/*.erb",
-        "**\/*.pug",
-        "**\/*.jade",
-        "**\/*.slim",
-        "**\/*.haml",
-        "**\/*.md",
-        "**\/*.kit"
+        "source\/**\/*.html",
+        "source\/**\/*.htm",
+        "source\/**\/*.shtml",
+        "source\/**\/*.xhtml",
+        "source\/**\/*.php",
+        "source\/**\/*.js",
+        "source\/**\/*.ts",
+        "source\/**\/*.coffee",
+        "source\/**\/*.erb",
+        "source\/**\/*.pug",
+        "source\/**\/*.jade",
+        "source\/**\/*.slim",
+        "source\/**\/*.haml",
+        "source\/**\/*.md",
+        "source\/**\/*.kit"
       ],
       "removeFontFace" : 0,
       "removeKeyframes" : 0,
@@ -2017,7 +1911,7 @@
 
     ],
     "rollupReplacementEntries" : [
-      "process.env.NODE_ENV:::$NODE_ENV",
+      "'process.env.NODE_ENV':::$NODE_ENV",
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
@@ -2335,7 +2229,7 @@
     "webpPresets" : {
 
     },
-    "websiteRelativeRoot" : ""
+    "websiteRelativeRoot" : "build"
   },
   "settingsFileVersion" : "3"
 }
