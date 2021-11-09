@@ -4,11 +4,22 @@
 
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+/* * Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+/* * Copy */
+
+/* * Layout */
+
+/* * Links */
+
+/* * Buttons */
+
+/* * Forms */
 
 @layer base {
   html {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     background: hsl(226, 43%, 10%);
     color: #fff;
     @apply p-4;
@@ -40,7 +51,6 @@
     @apply flex flex-row justify-around py-6;
   }
   nav a {
-    
   }
   dt {
     color: hsla(236, 100%, 87%, 1);
@@ -49,7 +59,11 @@
   dd {
     @apply text-2xl;
   }
-  p {
+  .grid-container {
+    @apply grid grid-flow-row gap-4 mt-4;
+  }
+  .grid-item {
+    @apply h-10 bg-red-500 rounded-2xl;
   }
 }
 

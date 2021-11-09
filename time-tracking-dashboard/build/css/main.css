@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 
 /*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
@@ -540,7 +540,7 @@ video {
 }
 
 html {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   background: hsl(226, 43%, 10%);
   color: #fff;
   padding: 1rem;
@@ -602,7 +602,6 @@ nav {
 }
 
 nav a {
-  justify-content: space-between;
 }
 
 dt {
@@ -616,7 +615,18 @@ dd {
   line-height: 2rem;
 }
 
-p {
+.grid-container {
+  margin-top: 1rem;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1rem;
+}
+
+.grid-item {
+  height: 2.5rem;
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
 }
 
 .container{
@@ -758,6 +768,18 @@ p {
 }
 
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
+
+/* * Fonts */
+
+/* * Copy */
+
+/* * Layout */
+
+/* * Links */
+
+/* * Buttons */
+
+/* * Forms */
 
 @media (min-width: 640px){
 }
