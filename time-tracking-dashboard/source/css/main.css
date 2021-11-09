@@ -63,7 +63,25 @@
     @apply grid grid-flow-row gap-4 mt-4;
   }
   .grid-item {
-    @apply h-10 bg-red-500 rounded-2xl;
+    @apply h-10 rounded-2xl;
+  }
+  .grid-item:nth-of-type(1) {
+    background: hsla(15, 100%, 70%, 1);
+  }
+  .grid-item:nth-of-type(2) {
+    background: hsla(195, 74%, 62%, 1);
+  }
+  .grid-item:nth-of-type(3) {
+    background: hsla(348, 100%, 68%, 1);
+  }
+  .grid-item:nth-of-type(4) {
+    background: hsla(145, 58%, 55%, 1);
+  }
+  .grid-item:nth-of-type(5) {
+    background: hsla(264, 64%, 52%, 1);
+  }
+  .grid-item:nth-of-type(6) {
+    background: hsla(43, 84%, 65%, 1);
   }
 }
 
