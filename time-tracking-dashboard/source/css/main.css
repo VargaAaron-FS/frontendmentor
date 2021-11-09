@@ -21,13 +21,33 @@
   }
   header {
     background: hsl(235, 46%, 20%);
+    @apply rounded-2xl;
   }
   .container {
-    @apply p-4 mx-auto;
+    @apply mx-auto;
+  }
+  .flex-container {
+    @apply flex;
+  }
+  header .container .flex-container:nth-of-type(1) {
+    @apply flex flex-row items-center justify-center rounded-2xl py-9;
+    background: hsla(246, 80%, 60%, 1);
+  }
+  header .container img {
+    @apply w-16 mr-4 border-2 border-white rounded-full;
+  }
+  nav {
+    @apply flex flex-row justify-around py-6;
+  }
+  nav a {
+    
   }
   dt {
     color: hsla(236, 100%, 87%, 1);
     @apply text-sm;
+  }
+  dd {
+    @apply text-2xl;
   }
   p {
   }
